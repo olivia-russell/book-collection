@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto+Condensed:wght@300;400;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&family=Roboto+Condensed:wght@300;400;700&family=Space+Mono&family=Tilt+Prism&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+
+}
+
+
+body {
+    margin: 0 auto;
+    width: 100vw;
+    background-image: url(library.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-content: center !important;
+    color: var(--white);
+}
+
+header {
+    background-color: #362419;
+    color: var(--white);
+    font-family: 'Tilt Prism', serif;
+    box-shadow: rgba(255, 255, 255, 0.20) 0px 1px 4px;
+    min-height: 80px;
+    padding: 5px 20px 5px 20px;
+    font-size: 30px;
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', serif;
+    background-color: #284F3B;
+    color: var(--white);
+    border: 2px solid var(--white);
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.hero {
+    color: var(--white);
+    text-shadow: 2px 2px var(--black);
+    min-height: 30vw;
+    display: block;
+    text-align: center;
+}
+
+.hero-text {
+    padding: 100px 0;
+}
+
+.library {
+    background-color: rgba(54, 36, 25, 0.7);
+    min-height: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: rgba(255, 255, 255, 0.80) 0px 1px 4px;
+}
+
+.library {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+footer {
+    min-height:100px;
+    background-color: #362419;
+    box-shadow: rgba(255, 255, 255, 0.80) 0px 1px 4px;
+    margin-top: 100px;
+}
