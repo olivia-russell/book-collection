@@ -81,6 +81,10 @@ h1 {
     font-size: 4rem;
 }
 
+h3 {
+    padding-top: 30px;
+}
+
 footer {
     min-height:100px;
     background-color: #362419;
